@@ -1,4 +1,7 @@
-window.onload = function() {
+// Al dar click al boton genera una nueva carta
+var buttonNewCard = document.getElementsByClassName("btn")[0];
+
+buttonNewCard.addEventListener("click", function() {
   // Arrays que almacenan las posibles cartas
   let icons = ["♠️", "♦️", "♣️", "♥️"];
   let numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K", "A"];
@@ -27,4 +30,4 @@ window.onload = function() {
 
   // Asignar valor de la letra/Numero
   cardNumber.innerHTML = randomNumbers;
-};
+});
