@@ -1,1 +1,29 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+html, body {
+  background-color: green; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 400px;
+  height: 560px;
+  border-radius: 30px;
+}
+
+.card-icon-top {
+  font-size: 8rem;
+}
+
+.card-icon-botton {
+  font-size: 8rem;
+  display: flex;
+  text-align: right;
+  transform: rotate(180deg);
+}
+
+.card-number {
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+}
