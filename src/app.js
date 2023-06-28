@@ -21,8 +21,8 @@ window.onload = function() {
     cardIconTop.innerHTML = `<p style="color: red;">${randomIcon}</p>`;
     cardIconBotton.innerHTML = `<p style="color: red;">${randomIcon}</p>`;
   } else {
-    cardIconTop.innerHTML = randomIcon;
-    cardIconBotton.innerHTML = randomIcon;
+    cardIconTop.innerHTML = `<p style="color: black;">${randomIcon}</p>`;
+    cardIconBotton.innerHTML = `<p style="color: black;">${randomIcon}</p>`;
   }
 
   // Asignar valor de la letra/Numero

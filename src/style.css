@@ -6,9 +6,13 @@ html, body {
 }
 
 .card {
-  width: 400px;
-  height: 560px;
-  border-radius: 30px;
+  width: 22rem;
+  height: 32rem;
+  border-radius: 2rem; 
+}
+
+.card div {
+  line-height: 1;
 }
 
 .card-icon-top {
@@ -20,10 +24,11 @@ html, body {
   display: flex;
   text-align: right;
   transform: rotate(180deg);
+  margin-top: 3rem;
 }
 
 .card-number {
-  font-size: 8rem;
+  font-size: 9rem;
   display: flex;
   justify-content: center;
 }
